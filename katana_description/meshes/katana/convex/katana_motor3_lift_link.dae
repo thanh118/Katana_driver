@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.4.0" xmlns="http://www.collada.org/2005/11/COLLADASchema">
+	<asset>
+		<contributor>
+			<author>NxuStream2 converter - http://www.ageia.com</author>
+			<authoring_tool>PhysX Rocket, PhysX Viewer, or CreateDynamics</authoring_tool>
+			<comments>questions to: jratcliff@ageia.com</comments>
+			<copyright></copyright>
+			<source_data>chair_gothic_tilted</source_data>
+		</contributor>
+		<unit meter="1" name="meter"/>
+		<up_axis>Y_UP</up_axis>
+	</asset>
+   <library_materials>
+      <material id="Material" name="Material">
+         <instance_effect url="#Material-fx"></instance_effect>
+      </material>
+   </library_materials>
+   <library_effects>
+      <effect id="Material-fx" name="Material">
+         <profile_COMMON>
+            <technique id="Material-fx-COMMON" sid="COMMON">
+               <phong>
+                  <ambient>
+                     <color>0.803922 0.588235 0.92549 1</color>
+                  </ambient>
+                  <diffuse>
+                     <color>0.803922 0.588235 0.92549 1</color>
+                  </diffuse>
+                  <specular>
+                     <color>0.631373 0.631373 0.631373 1</color>
+                  </specular>
+                  <shininess>
+                     <float>1</float>
+                  </shininess>
+                  <reflective>
+                     <color>0 0 0 1</color>
+                  </reflective>
+                  <transparent>
+                     <color>1 1 1 1</color>
+                  </transparent>
+                  <transparency>
+                     <float>0</float>
+                  </transparency>
+               </phong>
+           </technique>
+         </profile_COMMON>
+      </effect>
+   </library_effects>
+  <library_geometries>
+    <geometry id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Mesh" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Mesh">
+      <convex_mesh>
+        <source id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Position">
+          <float_array count="36" id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Position-array">
+            0.02608059 -0.036292531 -0.036479447  0.01415 -0.063446999 -0.008437  -0.001923 -0.035996001 -0.038548999  0.027216878 -0.038100924 -0.000215754  
+            0.026060658 -0.036260806 0.035918653  -0.012994 -0.062996998 0.010749  -0.001591 -0.036421999 0.037826002  -0.014597 -0.063482001 -0.009452  
+            -0.038100999 -0.036830001 0.004  -0.029166 -0.036963999 -0.025118999  -0.037076999 -0.026997 -0.010615  -0.030737 -0.027008999 0.022748999  
+          </float_array>
+          <technique_common>
+            <accessor count="12" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Position-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+    		   </technique_common>
+				 </source>
+   		 <vertices id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Vertex">
+					<input semantic="POSITION" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Position"/>
+				</vertices>
+				<triangles material="Material" count="20">
+					<input offset="0" semantic="VERTEX" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Vertex"/>
+           <p>
+             0 1 2  0 3 1  4 3 0  4 1 3  
+             5 1 4  5 4 6  7 2 1  7 1 5  
+             7 5 8  9 2 7  9 7 8  10 2 9  
+             10 9 8  10 0 2  11 10 8  11 6 4  
+             11 4 0  11 0 10  11 8 5  11 5 6  
+           </p>
+				</triangles>
+      </convex_mesh>
+		</geometry>
+    <geometry id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Mesh" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Mesh">
+      <convex_mesh>
+        <source id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Position">
+          <float_array count="36" id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Position-array">
+            0.109588429 0.000927434 0.016937809  0.141857997 -0.041503999 0.017361  0.138655007 0.019083999 0.018998001  0.155175999 0.037505999 -0.007368  
+            0.117040999 -0.018893 -0.019052999  0.126328006 0.037507001 -0.012473  0.152406007 -0.034490999 -0.013244  0.134573996 0.037496001 0.017224001  
+            0.123534001 -0.041494001 -0.0093  0.108258076 0.012734638 -0.011401207  0.156315997 -0.034481999 0.007246  0.150225997 0.037498001 0.013503  
+          </float_array>
+          <technique_common>
+            <accessor count="12" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Position-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+    		   </technique_common>
+				 </source>
+   		 <vertices id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Vertex">
+					<input semantic="POSITION" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Position"/>
+				</vertices>
+				<triangles material="Material" count="20">
+					<input offset="0" semantic="VERTEX" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Vertex"/>
+           <p>
+             0 1 2  3 4 5  3 6 4  7 3 5  
+             7 0 2  8 4 6  8 6 1  8 0 4  
+             8 1 0  9 0 7  9 7 5  9 4 0  
+             9 5 4  10 1 6  10 6 3  11 10 3  
+             11 2 1  11 1 10  11 3 7  11 7 2  
+           </p>
+				</triangles>
+      </convex_mesh>
+		</geometry>
+    <geometry id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Mesh" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Mesh">
+      <convex_mesh>
+        <source id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Position">
+          <float_array count="36" id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Position-array">
+            0.027216878 -0.038100924 -0.000215754  0.026532982 -0.037012506 0.034079984  0.020232908 -0.026985999 -0.036872961  0.020249782 -0.027012853 0.03629313  
+            0.036704175 0.017487472 0.020267656  0.059817057 0.023960164 -0.03019413  0.063584998 -0.036988001 -0.027597001  0.11160589 -0.016978057 0.001195835  
+            0.059682056 0.023944953 0.029838873  0.107788101 0.016905783 0.001258006  0.109587587 0.000934883 -0.017085619  0.109542638 0.001333871 0.016900012  
+          </float_array>
+          <technique_common>
+            <accessor count="12" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Position-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+    		   </technique_common>
+				 </source>
+   		 <vertices id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Vertex">
+					<input semantic="POSITION" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Position"/>
+				</vertices>
+				<triangles material="Material" count="20">
+					<input offset="0" semantic="VERTEX" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Vertex"/>
+           <p>
+             0 1 2  3 2 1  4 2 3  5 2 4  
+             6 0 2  6 1 0  6 7 1  6 2 5  
+             8 9 5  8 5 4  8 4 3  10 7 6  
+             10 6 5  10 5 9  10 9 7  11 1 7  
+             11 3 1  11 8 3  11 7 9  11 9 8  
+           </p>
+				</triangles>
+      </convex_mesh>
+		</geometry>
+    <geometry id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Mesh" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Mesh">
+      <convex_mesh>
+        <source id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Position">
+          <float_array count="36" id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Position-array">
+            -0.037944 0.036958002 -0.004712  0.05051 0.099218003 -0.00505  0.000296 0.035863001 -0.038369  0.063394271 0.02436322 0.027322335  
+            0.036704175 0.017487472 0.020267656  0.059817057 0.023960164 -0.03019413  0.076742001 0.036063001 -0.001857  0.065701 0.074993998 0.020854  
+            -0.001061 0.036304001 0.037825  0.066785999 0.076847002 -0.021142  0.051362 0.097350001 0.016571  -0.028182 0.02699 0.025821  
+          </float_array>
+          <technique_common>
+            <accessor count="12" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Position-array" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+    		   </technique_common>
+				 </source>
+   		 <vertices id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Vertex">
+					<input semantic="POSITION" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Position"/>
+				</vertices>
+				<triangles material="Material" count="20">
+					<input offset="0" semantic="VERTEX" source="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Vertex"/>
+           <p>
+             0 1 2  3 4 5  3 5 6  3 6 7  
+             3 8 4  3 7 8  9 6 5  9 2 1  
+             9 5 2  9 7 6  10 7 9  10 9 1  
+             10 8 7  10 1 0  11 8 10  11 10 0  
+             11 2 5  11 5 4  11 4 8  11 0 2  
+           </p>
+				</triangles>
+      </convex_mesh>
+		</geometry>
+  </library_geometries>
+  <library_visual_scenes>
+	  <visual_scene id="Scene0-Visual" name="Scene0-Visual">
+      <node id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link-Node" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link" type="NODE">
+        <translate>0 0 0</translate>
+        <rotate>1 0 0  0</rotate>
+      </node>
+  	  </visual_scene>
+  </library_visual_scenes>
+  <library_physics_materials>
+    <physics_material id="pmat0_0-PhysicsMaterial" name="pmat0_0-PhysicsMaterial">
+      <technique_common>
+        <dynamic_friction>0.5</dynamic_friction>
+        <restitution>0</restitution>
+        <static_friction>0.5</static_friction>
+      </technique_common>
+    </physics_material>
+  </library_physics_materials>
+  <library_physics_models>
+    <physics_model id="Scene0-PhysicsModel">
+      <rigid_body sid="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link-RigidBody" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link">
+        <technique_common>
+          <instance_physics_material url="#pmat0_0-PhysicsMaterial"/>
+         <shape>
+            <translate>0 0 0</translate>
+            <rotate>1 0 0  0</rotate>
+            <instance_physics_material url="#pmat0_0-PhysicsMaterial"/>
+            <density>1</density>
+            <extra>
+              <technique profile="PhysX">
+               <skinWidth>0</skinWidth>
+              </technique>
+            </extra>
+            <instance_geometry url="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0-Mesh"/>
+         </shape>
+         <shape>
+            <translate>0 0 0</translate>
+            <rotate>1 0 0  0</rotate>
+            <instance_physics_material url="#pmat0_0-PhysicsMaterial"/>
+            <density>1</density>
+            <extra>
+              <technique profile="PhysX">
+               <skinWidth>0</skinWidth>
+              </technique>
+            </extra>
+            <instance_geometry url="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1-Mesh"/>
+         </shape>
+         <shape>
+            <translate>0 0 0</translate>
+            <rotate>1 0 0  0</rotate>
+            <instance_physics_material url="#pmat0_0-PhysicsMaterial"/>
+            <density>1</density>
+            <extra>
+              <technique profile="PhysX">
+               <skinWidth>0</skinWidth>
+              </technique>
+            </extra>
+            <instance_geometry url="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2-Mesh"/>
+         </shape>
+         <shape>
+            <translate>0 0 0</translate>
+            <rotate>1 0 0  0</rotate>
+            <instance_physics_material url="#pmat0_0-PhysicsMaterial"/>
+            <density>1</density>
+            <extra>
+              <technique profile="PhysX">
+               <skinWidth>0</skinWidth>
+              </technique>
+            </extra>
+            <instance_geometry url="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3-Mesh"/>
+         </shape>
+        <dynamic>true</dynamic>
+        <mass>1</mass>
+		   	</technique_common>
+        <extra>
+          <technique profile="PhysX">
+            <extra>
+              <technique profile="PhysX">
+                <linearDamping>0</linearDamping>
+                <angularDamping>0</angularDamping>
+                <solverIterationCount>32</solverIterationCount>
+              </technique>
+            </extra>
+            <disable_collision>false</disable_collision>
+          </technique>
+        </extra>
+  	  </rigid_body>
+    </physics_model>
+  </library_physics_models>
+  <library_physics_scenes>
+    <physics_scene id="Scene0-Physics">
+      <instance_physics_model url="#Scene0-PhysicsModel">
+        <instance_rigid_body target="#/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link-Node" body="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link-RigidBody"/>
+      <extra>
+        <technique profile="PhysX">
+        </technique>
+      </extra>
+      </instance_physics_model>
+      <technique_common>
+        <gravity>0 -9.800000191 0</gravity>
+      </technique_common>
+    </physics_scene>
+  </library_physics_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene0-Visual"/>
+    <instance_physics_scene url="#Scene0-Physics"/>
+  </scene>
+</COLLADA>

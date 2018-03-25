@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <NXUSTREAM2>
+    <NxuPhysicsCollection id="beshon" sdkVersion="244" nxuVersion="100">
+      <NxPhysicsSDKDesc id="SDK">
+        <hwPageSize>65536</hwPageSize>
+        <hwPageMax>256</hwPageMax>
+        <hwConvexMax>2048</hwConvexMax>
+      </NxPhysicsSDKDesc>
+  <NxConvexMeshDesc id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0">
+    <points>
+      0.02608059 -0.036292531 -0.036479447  0.01415 -0.063446999 -0.008437  -0.001923 -0.035996001 -0.038548999  0.027216878 -0.038100924 -0.000215754  
+      0.026060658 -0.036260806 0.035918653  -0.012994 -0.062996998 0.010749  -0.001591 -0.036421999 0.037826002  -0.014597 -0.063482001 -0.009452  
+      -0.038100999 -0.036830001 0.004  -0.029166 -0.036963999 -0.025118999  -0.037076999 -0.026997 -0.010615  -0.030737 -0.027008999 0.022748999  
+    </points>
+    <triangles>
+      0 1 2  0 3 1  4 3 0  4 1 3  
+      5 1 4  5 4 6  7 2 1  7 1 5  
+      7 5 8  9 2 7  9 7 8  10 2 9  
+      10 9 8  10 0 2  11 10 8  11 6 4  
+      11 4 0  11 0 10  11 8 5  11 5 6  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1">
+    <points>
+      0.109588429 0.000927434 0.016937809  0.141857997 -0.041503999 0.017361  0.138655007 0.019083999 0.018998001  0.155175999 0.037505999 -0.007368  
+      0.117040999 -0.018893 -0.019052999  0.126328006 0.037507001 -0.012473  0.152406007 -0.034490999 -0.013244  0.134573996 0.037496001 0.017224001  
+      0.123534001 -0.041494001 -0.0093  0.108258076 0.012734638 -0.011401207  0.156315997 -0.034481999 0.007246  0.150225997 0.037498001 0.013503  
+    </points>
+    <triangles>
+      0 1 2  3 4 5  3 6 4  7 3 5  
+      7 0 2  8 4 6  8 6 1  8 0 4  
+      8 1 0  9 0 7  9 7 5  9 4 0  
+      9 5 4  10 1 6  10 6 3  11 10 3  
+      11 2 1  11 1 10  11 3 7  11 7 2  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2">
+    <points>
+      0.027216878 -0.038100924 -0.000215754  0.026532982 -0.037012506 0.034079984  0.020232908 -0.026985999 -0.036872961  0.020249782 -0.027012853 0.03629313  
+      0.036704175 0.017487472 0.020267656  0.059817057 0.023960164 -0.03019413  0.063584998 -0.036988001 -0.027597001  0.11160589 -0.016978057 0.001195835  
+      0.059682056 0.023944953 0.029838873  0.107788101 0.016905783 0.001258006  0.109587587 0.000934883 -0.017085619  0.109542638 0.001333871 0.016900012  
+    </points>
+    <triangles>
+      0 1 2  3 2 1  4 2 3  5 2 4  
+      6 0 2  6 1 0  6 7 1  6 2 5  
+      8 9 5  8 5 4  8 4 3  10 7 6  
+      10 6 5  10 5 9  10 9 7  11 1 7  
+      11 3 1  11 8 3  11 7 9  11 9 8  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxConvexMeshDesc id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3">
+    <points>
+      -0.037944 0.036958002 -0.004712  0.05051 0.099218003 -0.00505  0.000296 0.035863001 -0.038369  0.063394271 0.02436322 0.027322335  
+      0.036704175 0.017487472 0.020267656  0.059817057 0.023960164 -0.03019413  0.076742001 0.036063001 -0.001857  0.065701 0.074993998 0.020854  
+      -0.001061 0.036304001 0.037825  0.066785999 0.076847002 -0.021142  0.051362 0.097350001 0.016571  -0.028182 0.02699 0.025821  
+    </points>
+    <triangles>
+      0 1 2  3 4 5  3 5 6  3 6 7  
+      3 8 4  3 7 8  9 6 5  9 2 1  
+      9 5 2  9 7 6  10 7 9  10 9 1  
+      10 8 7  10 1 0  11 8 10  11 10 0  
+      11 2 5  11 5 4  11 4 8  11 0 2  
+    </triangles>
+  </NxConvexMeshDesc>
+  <NxSceneDesc id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link">
+        <filterBool>false</filterBool>
+        <filterOp0>NX_FILTEROP_AND</filterOp0>
+        <filterOp1>NX_FILTEROP_AND</filterOp1>
+        <filterOp2>NX_FILTEROP_AND</filterOp2>
+        <NxGroupsMask id="groupMask0" bits0="0" bits1="0" bits2="0" bits3="0"/>
+        <NxGroupsMask id="groupMask1" bits0="0" bits1="0" bits2="0" bits3="0"/>
+        <gravity>0 -9.800000191 0</gravity>
+        <maxTimestep>0.016666668</maxTimestep>
+        <maxIter>8</maxIter>
+        <timeStepMethod>NX_TIMESTEP_FIXED</timeStepMethod>
+        <maxBounds>FLT_MIN FLT_MIN FLT_MIN  FLT_MAX FLT_MAX FLT_MAX</maxBounds>
+        <NxSceneLimits id="limits">
+          <maxNbActors>0</maxNbActors>
+          <maxNbBodies>0</maxNbBodies>
+          <maxNbStaticShapes>0</maxNbStaticShapes>
+          <maxNbDynamicShapes>0</maxNbDynamicShapes>
+          <maxNbJoints>0</maxNbJoints>
+        </NxSceneLimits>
+        <simType>NX_SIMULATION_SW</simType>
+        <groundPlane>true</groundPlane>
+        <boundsPlanes>false</boundsPlanes>
+        <NxSceneFlags id="flags">
+          <NX_SF_DISABLE_SSE>false</NX_SF_DISABLE_SSE>
+          <NX_SF_DISABLE_COLLISIONS>false</NX_SF_DISABLE_COLLISIONS>
+          <NX_SF_SIMULATE_SEPARATE_THREAD>true</NX_SF_SIMULATE_SEPARATE_THREAD>
+          <NX_SF_ENABLE_MULTITHREAD>false</NX_SF_ENABLE_MULTITHREAD>
+        </NxSceneFlags>
+        <internalThreadCount>0</internalThreadCount>
+        <backgroundThreadCount>0</backgroundThreadCount>
+        <threadMask>1431655764</threadMask>
+        <backgroundThreadMask>1431655764</backgroundThreadMask>
+        <NxMaterialDesc id="Material_0" userProperties="" hasSpring="false" materialIndex="0">
+          <dynamicFriction>0.5</dynamicFriction>
+          <staticFriction>0.5</staticFriction>
+          <restitution>0</restitution>
+          <dynamicFrictionV>0</dynamicFrictionV>
+          <staticFrictionV>0</staticFrictionV>
+          <frictionCombineMode>NX_CM_AVERAGE</frictionCombineMode>
+          <restitutionCombineMode>NX_CM_AVERAGE</restitutionCombineMode>
+          <dirOfAnisotropy>1 0 0</dirOfAnisotropy>
+          <NxMaterialFlag id="flags">
+            <NX_MF_ANISOTROPIC>false</NX_MF_ANISOTROPIC>
+            <NX_MF_DISABLE_FRICTION>false</NX_MF_DISABLE_FRICTION>
+            <NX_MF_DISABLE_STRONG_FRICTION>false</NX_MF_DISABLE_STRONG_FRICTION>
+          </NxMaterialFlag>
+        </NxMaterialDesc>
+    <NxActorDesc id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link" userProperties="" hasBody="true" name="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link">
+      <globalPose>1 0 0    0 1 0    0 0 1    0 0 0 </globalPose>
+			<NxBodyDesc>
+        <mass>1</mass>
+        <linearDamping>0</linearDamping>
+        <angularDamping>0</angularDamping>
+        <solverIterationCount>32</solverIterationCount>
+        <NxBodyFlag id="flags">
+          <NX_BF_POSE_SLEEP_TEST>true</NX_BF_POSE_SLEEP_TEST>
+          <NX_AF_DISABLE_COLLISION>false</NX_AF_DISABLE_COLLISION>
+        </NxBodyFlag>
+      </NxBodyDesc>
+      <name>Bip01 Pelvis</name>
+      <NxConvexShapeDesc id="Shape_0" meshData="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_0">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+      <NxConvexShapeDesc id="Shape_1" meshData="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_1">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+      <NxConvexShapeDesc id="Shape_2" meshData="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_2">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+      <NxConvexShapeDesc id="Shape_3" meshData="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link_3">
+      <NxShapeDesc>
+        <localPose>1 0 0    0 1 0    0 0 1    0 0 0 </localPose>
+        <skinWidth>0</skinWidth>
+      </NxShapeDesc>
+      </NxConvexShapeDesc>
+    </NxActorDesc>
+  </NxSceneDesc>
+	 <NxSceneInstance id="/home/thanh/catkin_ws/src/katana_driver/katana_description/meshes/katana/convex/katana_motor3_lift_link">
+	 	 <sceneName>beshon</sceneName>
+	 	 <NxuUserProperties></NxuUserProperties>
+	 	 <rootNode>1	0	0	0	1	0	0	0	1	0	0 0</rootNode>
+	 	 <newScene>false</newScene>
+	 	 <ignorePlane>true</ignorePlane>
+	 	 <numSceneInstances>0</numSceneInstances>
+	 </NxSceneInstance>
+  </NxuPhysicsCollection>
+</NXUSTREAM2>
